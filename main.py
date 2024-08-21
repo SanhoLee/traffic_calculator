@@ -5,7 +5,7 @@ import numpy as np
 from ultralytics import YOLO
 
 model = YOLO("yolov8n.pt")  # initialize model
-source="video/traffic_video.avi"
+source="video/british_highway_traffic.mp4"
 # results = model.track(source=source, vid_stride=1, show=True, save=True)  # perform inference
 
 
